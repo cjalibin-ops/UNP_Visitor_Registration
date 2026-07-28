@@ -1,0 +1,2 @@
+      // Init Icons
+        lucide.createIcons();

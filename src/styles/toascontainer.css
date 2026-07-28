@@ -1,0 +1,132 @@
+.toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 9999;
+}
+
+/* Toast design */
+.toast-msg {
+  width: 270px;
+  height: 60px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: Poppins, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  animation: slideIn 0.3s ease;
+  position: relative;
+}
+
+
+/* Toast container */
+.toast-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Toast message */
+.toast-msg {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  min-width: 250px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.4s ease forwards;
+}
+
+.toast-text {
+  flex: 1;
+}
+
+/* Icon */
+.toast-icon {
+  font-size: 20px;
+}
+
+/* Close button */
+.toast-close {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background: none;
+}
+
+/* Toast types */
+.toast-success {
+  background: #eaf7f0;
+  border: 1px solid #3cb371;
+  color: #2e8b57;
+}
+.toast-error {
+  background: #fdeeee;
+  border: 1px solid #dc3545;
+  color: #b02a37;
+}
+.toast-warning {
+  background: #fff8e5;
+  border: 1px solid #ffc107;
+  color: #b08900;
+}
+
+/* Progress bar */
+.toast-progress {
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.toast-success .toast-progress {
+  background: #3cb371;
+}
+.toast-error .toast-progress {
+  background: #dc3545;
+}
+.toast-warning .toast-progress {
+  background: #ffc107;
+}
+
+.toast-blocked {
+  background: #fff1f2;         
+  border: 1px solid #f43f5e;       
+  color: #be123c;                  
+}
+
+/* Progress bar for blocked */
+.toast-blocked .toast-progress {
+  background: #f43f5e;
+}
+
+/* Optional: icon emphasis */
+.toast-blocked .toast-icon {
+  font-size: 20px;
+}
+
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
