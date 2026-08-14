@@ -1,5 +1,5 @@
 // visitorService.js
-import { apiClient } from "./DB-server.js";
+import { apiClient } from "./Visitor-registration-API.js";
 
 // Insert visitor   
 export const addVisitorAPI = (visitor) => {
