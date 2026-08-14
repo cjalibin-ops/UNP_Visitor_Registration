@@ -73,11 +73,9 @@ UNP_Visitor_Registration/
    );
    ```
 
-4. Open the application through Apache, not directly from the filesystem:
+4. Open the application through github repo.
 
-   [visit the link : ](https://cjalibin-ops.github.io/UNP_Visitor_Registration/visitor-registration.html)
-
-   Opening the HTML file with a `file://` URL can prevent ES modules and API requests from working correctly.
+   [visit the link](https://cjalibin-ops.github.io/UNP_Visitor_Registration/visitor-registration.html)
 
 ## Database configuration
 
