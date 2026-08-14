@@ -1,4 +1,4 @@
-# Full Connection of UNP Visitor Registration
+# Full Connection of Visitor Registration
 
 A visitor registration system for the University of Northern Philippines (UNP). The project provides a responsive registration page, client-side validation, Philippine address autocomplete, and a PHP/MySQL API for saving visitor records.
 
