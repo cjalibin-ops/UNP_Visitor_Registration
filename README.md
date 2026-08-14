@@ -115,4 +115,4 @@ The frontend currently runs without a bundler. Edit the source files directly an
 
 ## License
 
-No license has been specified for this project.
+No license has been specified.
